@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946e545d-b75c-4e23-a3f9-f67d326c7abe" name="Changes" comment="Implement aes algorithm">
+    <list default="true" id="946e545d-b75c-4e23-a3f9-f67d326c7abe" name="Changes" comment="Change the gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AES_ENCRYPTION.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AES_ENCRYPTION.java" afterDir="false" />
     </list>
@@ -29,12 +29,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +51,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661407251030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change the main to dynamically insert secret key and value">
+      <created>1661408388123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661408388123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change the gitignore">
+      <created>1661408469407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661408469407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +81,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement aes algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement aes algorithm" />
+    <MESSAGE value="Change the main to dynamically insert secret key and value" />
+    <MESSAGE value="Change the gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the gitignore" />
   </component>
 </project>
