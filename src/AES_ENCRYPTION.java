@@ -3,6 +3,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import java.util.Base64;
+import java.util.Scanner;
 
 public class AES_ENCRYPTION {
     private SecretKey key;
@@ -46,12 +47,21 @@ public class AES_ENCRYPTION {
     }
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
         try {
+
+            System.out.println();
+            System.out.print("Enter the secret key : ");
+            String secretkey = sc.next();
+            System.out.print("Enter the value : ");
+            String inputValue = sc.next();
+
             AES_ENCRYPTION aes_encryption = new AES_ENCRYPTION();
             aes_encryption.init();
-            String encryptedData = aes_encryption.encrypt("Hi Palihena");
+
+            String encryptedData = aes_encryption.encrypt(inputValue);
             String decryptedData = aes_encryption.decrypt(encryptedData);
-            System.out.println();
 
             System.out.println("Encrypted Data : " + encryptedData);
             System.out.println("Decrypted Data : " + decryptedData);
