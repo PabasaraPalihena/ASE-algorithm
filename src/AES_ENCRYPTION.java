@@ -65,8 +65,6 @@ public class AES_ENCRYPTION {
             String decryptedData = aes_encryption.decrypt(encryptedData);
 
             System.out.println("Encrypted Data : " + encryptedData);
-            System.out.print("Enter the decrypt key : ");
-            String decrypt = sc.next();
             System.out.println("Decrypted Data : " + decryptedData);
         } catch (Exception ignored) {
         }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946e545d-b75c-4e23-a3f9-f67d326c7abe" name="Changes" comment="Change the gitignore">
+    <list default="true" id="946e545d-b75c-4e23-a3f9-f67d326c7abe" name="Changes" comment="Change the decrypt key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AES_ENCRYPTION.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AES_ENCRYPTION.java" afterDir="false" />
     </list>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661408469407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change the decrypt key">
+      <created>1661455243953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661455243953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +90,7 @@
     <MESSAGE value="Implement aes algorithm" />
     <MESSAGE value="Change the main to dynamically insert secret key and value" />
     <MESSAGE value="Change the gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the gitignore" />
+    <MESSAGE value="Change the decrypt key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the decrypt key" />
   </component>
 </project>
